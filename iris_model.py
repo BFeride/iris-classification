@@ -17,4 +17,4 @@ model.fit(oyrenolcu, oyrenad)
 neticeler = model.predict(testolcu)
 
 faiz = accuracy_score(testad, neticeler)
-print(f"Dəqiqlik: {faiz * 100}%")
+print(f"Deqiqlik: {faiz * 100}%")
